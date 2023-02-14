@@ -12,7 +12,7 @@ function Edit() {
   const history = useHistory();
 
   const { id } = useParams();
-  const post = posts.find((post) => post.id.toString() === id);
+  const post = posts.find((post) => post._id.toString() === id);
 
   useEffect(() => {
     if (post) {

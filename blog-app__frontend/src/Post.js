@@ -5,7 +5,7 @@ function Post({ post }) {
   return (
     <Card
       as={Link}
-      to={`/post/${post.id}`}
+      to={`/post/${post._id}`}
       className="m-3 text-decoration-none text-dark"
       style={{ backgroundColor: "#f2f2f2" }}
     >
